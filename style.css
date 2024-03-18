@@ -10,6 +10,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-top: 50px;
+    padding-top: 50px;
 }
 nav {
     display: flex;
@@ -20,30 +22,29 @@ nav {
 h1 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font-size: 6em;
+    text-align: center;
+    font-size: 6vh;
 
 }
-img .photo  {
-    margin: 50px;
-}
+
 .photo {
     border: 10px;
     border-color: black;
     border-radius: 50%;
     border-style: solid;
     padding: 2px;
-    max-width: 100%;   
-
+    max-width: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-content: center; 
 }
 header p {
-
+    text-align: center;
     font-size: 1.8em;
 }
 p {
@@ -51,10 +52,21 @@ max-width: 50%;
 font-weight: 200;
 }
 .dark {
-    background-color: blue;
+    background-color: rgb(163, 154, 71);
     color: aliceblue;
     
 }
 .dark2 {
     filter: grayscale(1);
+}
+.dark3 {
+    background-color: rgb(189, 182, 95);
+    padding-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.theme {
+    margin-left: 25%;
+    margin-right: 25%;
 }
