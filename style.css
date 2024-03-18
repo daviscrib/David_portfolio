@@ -50,3 +50,6 @@ p {
 max-width: 50%;
 font-weight: 200;
 }
+.dark {
+    background-color: blue;
+}
