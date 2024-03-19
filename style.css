@@ -23,7 +23,7 @@ h1 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 6vh;
+    font-size: 4vh;
 
 }
 
@@ -32,28 +32,28 @@ h1 {
     border-color: black;
     border-radius: 50%;
     border-style: solid;
-    padding: 2px;
-    max-width: 100%;
-    margin-left: 25%;
-    margin-right: 25%;
+    max-width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    align-content: center; 
+    align-items: center;
 }
 header p {
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.2em;
+    max-width: 60%;
 }
 p {
-max-width: 50%;
+max-width: 60%;
 font-weight: 200;
 }
 .dark {
     background-color: rgb(163, 154, 71);
-    color: aliceblue;
+    color: white;
     
 }
 .dark2 {
@@ -62,11 +62,11 @@ font-weight: 200;
 .dark3 {
     background-color: rgb(189, 182, 95);
     padding-top: 50px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .theme {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
