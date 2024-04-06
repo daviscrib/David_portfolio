@@ -1,0 +1,25 @@
+.neumorphic-button {
+    background: #e0e5ec; /* Couleur de fond */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 15px #a3b1c6, /* Ombre extérieure */
+               -8px -8px 15px #ffffff; /* Lumière intérieure */
+    font-size: 18px;
+    font-weight: bold;
+    color: #313131;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .neumorphic-button:hover {
+    box-shadow: 4px 4px 10px #a3b1c6, /* Ombre extérieure plus petite */
+               -4px -4px 10px #ffffff; /* Lumière intérieure plus petite */
+  }
+  
+  .neumorphic-button:active {
+    box-shadow: inset 6px 6px 10px #a3b1c6, /* Ombre intérieure */
+                inset -6px -6px 10px #ffffff; /* Lumière extérieure */
+  }
+  
