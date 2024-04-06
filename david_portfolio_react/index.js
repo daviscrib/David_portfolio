@@ -1,3 +1,5 @@
+/*import react from '@vitejs/plugin-react'
+
 const theme = document.querySelector(".theme");
 const body = document.querySelector("body");
 const photo = document.querySelector(".photo");
@@ -9,8 +11,11 @@ theme.addEventListener("click", () => {
   backgroundHeader.classList.toggle("dark3");
 })
 
-function myFunction() {
+{function myFunction() {
     let logo = document.createElement("IMG");
     logo.setAttribute("src", "https://assets.codepen.io/6093409/sprocket.svg");
     document.body.appendChild(logo);
-  }
+  }}
+
+  export default index;
+  */
